@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Salah GHAMIZI, Research Associate @ LIST"
+title                    : "Salah GHAMIZI, Research Scientist @ SnT - University of Luxembourg"
 title_separator          : "-"
 name                     : "Salah GHAMIZI"
 description              : "My public research page"
@@ -87,7 +87,7 @@ author:
   employer         : "SnT - University of Luxembourg"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=UcvKgR0AAAAJ&hl=en&oi=ao"
-  email            : "salah.ghamizi[at]list.lu"
+  email            : "salah.ghamizi[at]uni.lu"
   researchgate     : "https://www.researchgate.net/profile/Salah-Ghamizi"
   uri              :
   bitbucket        :

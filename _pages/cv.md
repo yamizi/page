@@ -57,7 +57,7 @@ FM2MRI (2025-2028; FNR): Building on existing technology called the Mixture of E
 PREDIPET-AD (2025-2028; FNR): We propose to design new Deep learning models to learn the mapping between multi-parametric MRI and PET tracers used in the clinic as biomarkers of Alzeheimer Disease. PET imaging is a high costs and more complex process, while MRI is a more widely available imaging modality, and it is commonly used in the clinic to diagnose and assess the progression of various neurological disorders.
 
 
-* *R&T Association*
+* *R&T Associate*
  @ LIST, 2023-2025
 
 Member of the LEAP project: Learning Enabled Autonomous Real-time Operation For Distribution Grids (LEAP)
