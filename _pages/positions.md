@@ -11,7 +11,7 @@ I am regularly looking for motivated students and researchers to join us, workin
 
 # Postdoctoral researcher
 
-No open positions at the moment. Feel free to reach out at salah.ghamizi@uni.lu if you are interested in future opportunities.
+No open positions at the moment. Feel free to reach out at salah.ghamizi[Arobase]uni.lu if you are interested in future opportunities.
 
 # PhD student
 
@@ -21,7 +21,7 @@ No open positions at the moment. Feel free to reach out at salah.ghamizi@uni.lu 
 **Duration:** 36 months, full-time
 **Salary:** EUR 44,531 gross annually
 **Industrial partner:** [CREOS Luxembourg](https://www.creos-net.lu/) 
-**Contact:** Dr. Salah Ghamizi (salah.ghamizi@uni.lu)
+**Contact:** Dr. Salah Ghamizi (salah.ghamizi[Arobase]uni.lu)
 
 This PhD position focuses on designing **novel neuro-symbolic learning encoders for world models** applied to **power grid systems**. The candidate will investigate architectures that embed the electrical laws governing power flows (e.g. Kirchhoff's laws, power balance constraints) and battery chemical dynamics directly into the learning process, so that the resulting world models remain physically consistent and generalize better than purely data-driven approaches.
 
@@ -33,7 +33,7 @@ Beyond architectural design, the trustworthiness dimension of the thesis will fo
 - Knowledge of foundational and contemporary machine learning approaches (including foundation and generative models)
 - Prior experience in ICT for energy is a plus
 
-**How to apply:** Applications (CV + cover letter) must be submitted online through the University of Luxembourg's HR system (applications by email are not considered). Early applications are strongly encouraged, as applications are processed upon receipt: [text](https://www.uni.lu/en/jobs/doctoral-researcher-in-trustworthy-world-models-for-critical-systems/)
+**How to apply:** Applications (CV + cover letter) must be submitted online through the University of Luxembourg's HR system (applications by email are not considered). Early applications are strongly encouraged, as applications are processed upon receipt: [Application here](https://www.uni.lu/en/jobs/doctoral-researcher-in-trustworthy-world-models-for-critical-systems/)
 
 ---
 
@@ -43,7 +43,7 @@ Beyond architectural design, the trustworthiness dimension of the thesis will fo
 **Duration:** 36 months, full-time
 **Salary:** EUR 44,531 gross annually
 **Clinical partners:** Departments of Neuro-Oncology, Centre Hospitalier de Luxembourg (CHL) and Charité – Universitätsmedizin Berlin
-**Contact:** Dr. Salah Ghamizi (salah.ghamizi@uni.lu)
+**Contact:** Dr. Salah Ghamizi (salah.ghamizi[Arobase]uni.lu)
 
 This PhD position focuses on designing **novel neuro-symbolic learning encoders for world models** applied to **neuro-oncology**. The candidate will investigate architectures that embed mathematical models of brain tumor growth and treatment response into multimodal world models combining imaging, tabular clinical data, and graph-structured information, so that predictions remain consistent with known tumor biology and clinical constraints.
 
@@ -55,7 +55,7 @@ Beyond architectural design, the trustworthiness dimension of the thesis will fo
 - Knowledge of foundational and contemporary machine learning approaches (including foundation and generative models)
 - Prior experience in ICT for healthcare is a plus
 
-**How to apply:** Applications (CV + cover letter) must be submitted online through the University of Luxembourg's HR system (applications by email are not considered). Early applications are strongly encouraged, as applications are processed upon receipt. [text](https://www.uni.lu/en/jobs/doctoral-researcher-in-trustworthy-world-models-for-critical-systems/)
+**How to apply:** Applications (CV + cover letter) must be submitted online through the University of Luxembourg's HR system (applications by email are not considered). Early applications are strongly encouraged, as applications are processed upon receipt. [Application here](https://www.uni.lu/en/jobs/doctoral-researcher-in-trustworthy-world-models-for-critical-systems/)
 
 ---
 
@@ -71,7 +71,7 @@ Both positions are part of the same research effort on **Trustworthy World Model
 **Host institution:** Luxembourg Institute of Health (LIH) — BraINE Research Group
 **Location:** Luxembourg (on-site)
 **Duration & start:** Master's internship; duration and start date to be agreed with the candidate; 6-9 months preferred
-**Contact:** Dr. Salah Ghamizi (salah.ghamizi@lih.lu)
+**Contact:** Dr. Salah Ghamizi (salah.ghamizi[Arobase]lih.lu)
 
 We have developed predictive models that synthesize PET images from multi-parametric MRI, using publicly available datasets. This internship will define and apply a rigorous clinical evaluation framework for these models — including a downstream disease-staging task and a comprehensive set of clinical performance and reliability metrics — benchmark them across three clinical scenarios (MRI-only, MRI+synthetic PET, MRI+real PET), and then optimize the models to improve these metrics.
 
@@ -100,7 +100,7 @@ We have developed predictive models that synthesize PET images from multi-parame
 **Host institution:** Luxembourg Institute of Health (LIH) — BraINE Research Group
 **Location:** Luxembourg (on-site)
 **Duration & start:** Master's internship; 6 months
-**Contact:** Dr. Salah Ghamizi (salah.ghamizi@lih.lu)
+**Contact:** Dr. Salah Ghamizi (salah.ghamizi[Arobase]lih.lu)
 
 Deep learning models in medicine are typically designed as "narrow experts" (e.g. only for segmentation or only for classification). Integrating these into a universal system is difficult due to *negative transfer*, where learning one task degrades performance on another. Multi-Task Learning (MTL) attempts to solve this via shared encoders, while Mixture of Experts (MoE) offers a dynamic routing mechanism to specialize computations. This internship will investigate which combinations of medical imaging tasks (e.g. reconstruction + segmentation vs. classification + registration) result in positive inductive transfer, and whether an MoE architecture mitigates negative transfer better than traditional hard-parameter-sharing MTL — contributing a taxonomy of compatible neuroimaging tasks and a novel MoE architecture tailored for multi-objective medical image analysis.
 
@@ -129,7 +129,7 @@ Deep learning models in medicine are typically designed as "narrow experts" (e.g
 **Host institution:** Luxembourg Institute of Health (LIH) — BraINE Research Group
 **Location:** Luxembourg (on-site)
 **Duration & start:** Master's internship; duration and start date to be agreed with the candidate; 6-9 months preferred
-**Contact:** Dr. Salah Ghamizi (salah.ghamizi@lih.lu)
+**Contact:** Dr. Salah Ghamizi (salah.ghamizi[Arobase]lih.lu)
 
 This internship is part of FM2MRI, a project building a foundation model combining Mixture of Experts (MoE) and Retrieval Augmented Generation (RAG) for MRI segmentation and synthesis. Robust models for medical imaging must generalize across the diverse acquisition settings of different hospitals while remaining deployable locally under data privacy and compute constraints. RAG addresses generalization by letting a model retrieve and incorporate relevant information from an institution's own database at inference time, without retraining. This internship will build that retrieval mechanism, integrate it with the project's MoE model, and evaluate the resulting solution both for effectiveness and for its privacy guarantees when packaged for deployment.
 
