@@ -1,0 +1,42 @@
+{% include base_path %}
+
+<div class="author-hero">
+  <div class="author-hero__inner">
+
+    <div class="author-hero__avatar">
+      {% if site.author.avatar contains "://" %}
+        <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}">
+      {% else %}
+        <img src="{{ site.author.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ site.author.name }}">
+      {% endif %}
+    </div>
+
+    <div class="author-hero__content">
+      <h1 class="author-hero__name">{{ site.author.name }}</h1>
+      {% if site.author.bio %}<p class="author-hero__title">{{ site.author.bio }}</p>{% endif %}
+      {% if site.author.employer or site.author.location %}
+        <p class="author-hero__meta">
+          {% if site.author.employer %}<i class="fa fa-fw fa-building" aria-hidden="true"></i> {{ site.author.employer }}{% endif %}
+          {% if site.author.location %} &middot; <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ site.author.location }}{% endif %}
+        </p>
+      {% endif %}
+
+      <div class="author-hero__cta">
+        <a href="{{ base_path }}/cv/" class="btn btn--accent">CV</a>
+        {% if site.author.googlescholar %}
+          <a href="{{ site.author.googlescholar }}" class="btn btn--accent-outline">Google Scholar</a>
+        {% endif %}
+        {% if site.author.email %}
+          <a href="mailto:{{ site.author.email | replace: '[at]', '@' }}" class="btn btn--accent-outline">Email</a>
+        {% endif %}
+        {% if site.author.github %}
+          <a href="https://github.com/{{ site.author.github }}" class="btn btn--accent-outline">GitHub</a>
+        {% endif %}
+        {% if site.author.linkedin %}
+          <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" class="btn btn--accent-outline">LinkedIn</a>
+        {% endif %}
+      </div>
+    </div>
+
+  </div>
+</div>

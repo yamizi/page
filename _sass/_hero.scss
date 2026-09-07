@@ -1,0 +1,85 @@
+/* ==========================================================================
+   AUTHOR HERO (homepage banner)
+   ========================================================================== */
+
+.author-hero {
+  background-color: $lighter-gray;
+  border-bottom: 1px solid $border-color;
+  -webkit-animation: intro 0.3s both;
+          animation: intro 0.3s both;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.author-hero__inner {
+  @include clearfix;
+  max-width: $x-large;
+  margin: 0 auto;
+  padding: 2.5em 1em;
+  text-align: center;
+
+  @include breakpoint($medium) {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 3em 1em;
+  }
+}
+
+.author-hero__avatar {
+  flex: 0 0 auto;
+  margin: 0 auto 1.5em;
+
+  @include breakpoint($medium) {
+    margin: 0 2.5em 0 0;
+  }
+
+  img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: $box-shadow;
+
+    @include breakpoint($medium) {
+      width: 190px;
+      height: 190px;
+    }
+  }
+}
+
+.author-hero__content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.author-hero__name {
+  margin: 0 0 0.15em;
+  font-size: $type-size-2;
+  color: $primary-color;
+
+  @include breakpoint($medium) {
+    font-size: $type-size-1;
+  }
+}
+
+.author-hero__title {
+  margin: 0 0 0.5em;
+  font-size: $type-size-4;
+  font-weight: bold;
+  color: $accent-color;
+}
+
+.author-hero__meta {
+  margin: 0 0 1.5em;
+  color: mix(#fff, $gray, 15%);
+  font-size: $type-size-6;
+}
+
+.author-hero__cta {
+  .btn {
+    margin-right: 0.5em;
+  }
+}

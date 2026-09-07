@@ -1,0 +1,25 @@
+{% include base_path %}
+
+<article class="card" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="card__header">
+    <h2 class="card__title" itemprop="headline"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h2>
+    {% if post.status %}<span class="badge badge--{{ post.status }}">{{ post.status }}</span>{% endif %}
+  </div>
+
+  <p class="card__meta">
+    {% if post.host %}<span><i class="fa fa-fw fa-building" aria-hidden="true"></i> {{ post.host }}</span>{% endif %}
+    {% if post.duration %}<span><i class="fa fa-fw fa-clock" aria-hidden="true"></i> {{ post.duration }}</span>{% endif %}
+    {% if post.salary %}<span><i class="fa fa-fw fa-coins" aria-hidden="true"></i> {{ post.salary }}</span>{% endif %}
+  </p>
+
+  {% if post.excerpt %}<p class="card__excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+
+  <div class="card__footer">
+    {% if post.apply_url %}
+      <a class="btn btn--accent btn--small" href="{{ post.apply_url }}">Apply</a>
+    {% elsif post.contact_email %}
+      <a class="btn btn--accent btn--small" href="mailto:{{ post.contact_email | replace: '[at]', '@' }}">Contact</a>
+    {% endif %}
+    <a class="card__tag" href="{{ base_path }}{{ post.url }}">Full details</a>
+  </div>
+</article>

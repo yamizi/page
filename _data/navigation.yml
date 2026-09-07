@@ -9,10 +9,8 @@ main:
   - title: "Projects"
     url: /projects/
 
-
   - title: "Open Positions"
     url: /positions/
-
 
   - title: "CV"
     url: /cv/

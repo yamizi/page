@@ -20,16 +20,16 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+  background-color: $primary-color;
+  border-top: 3px solid $accent-color;
 
   footer {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 0;
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 0;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -37,11 +37,12 @@
   }
 
   a {
-    color: inherit;
+    color: #fff;
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      color: $accent-color;
+      text-decoration: none;
     }
   }
 
@@ -49,13 +50,58 @@
   .fab,
   .far,
   .fal {
-    color: mix(#fff, $gray, 25%);
+    color: inherit;
+  }
+}
+
+.page__footer-inner {
+  padding: 2.5em 1em 2em;
+
+  @include breakpoint($x-large) {
+    max-width: $x-large;
+    margin: 0 auto;
+  }
+}
+
+.page__footer-nav {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid rgba(#fff, 0.15);
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  a {
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-6;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
   }
 }
 
 .page__footer-copyright {
+  margin-top: 1.5em;
+  color: rgba(#fff, 0.6);
   font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-size: $type-size-8;
+
+  a {
+    color: rgba(#fff, 0.75);
+
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 .page__footer-follow {
@@ -67,26 +113,17 @@
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
-    text-transform: uppercase;
-  }
-
-  li + li:before {
-    content: "";
-    padding-right: 5px;
+    margin-right: 1.25em;
+    margin-bottom: 0.5em;
   }
 
   a {
-    padding-right: 10px;
-    font-weight: bold;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    white-space: nowrap;
   }
 
-  .social-icons {
-    a {
-      white-space: nowrap;
-    }
+  .label {
+    margin-left: 0.25em;
   }
 }

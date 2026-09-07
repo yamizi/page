@@ -65,6 +65,29 @@
     background-color: transparent;
   }
 
+  /* accent (brand) */
+
+  &--accent {
+    background-color: $accent-color;
+
+    &:hover {
+      background-color: $accent-color-dark;
+    }
+  }
+
+  /* accent outline, for use on light backgrounds */
+
+  &--accent-outline {
+    color: $accent-color !important;
+    border: 1px solid $accent-color !important;
+    background-color: transparent;
+
+    &:hover {
+      color: #fff !important;
+      background-color: $accent-color;
+    }
+  }
+
   /* information */
 
   &--info {

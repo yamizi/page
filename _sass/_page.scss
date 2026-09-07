@@ -23,6 +23,15 @@
     @include suffix(2 of 12);
   }
 
+  &.page--full {
+    @include breakpoint($large) {
+      float: none;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
   .page__inner-wrap {
     @include full();
 

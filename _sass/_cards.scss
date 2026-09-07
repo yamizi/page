@@ -1,0 +1,116 @@
+/* ==========================================================================
+   CARDS (projects / open positions)
+   ========================================================================== */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5em;
+  margin: 1.5em 0 2.5em;
+}
+
+.card-grid + h2 {
+  margin-top: 2em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $border-color;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  background-color: #fff;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  transition: $global-transition;
+
+  &:hover {
+    border-color: $accent-color;
+    box-shadow: 0 4px 14px rgba(#000, 0.08);
+  }
+}
+
+.card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.card__title {
+  margin: 0;
+  font-size: $type-size-5;
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+.card__meta {
+  margin: 0 0 0.75em;
+  color: mix(#fff, $gray, 15%);
+  font-size: $type-size-7;
+
+  span + span {
+    margin-left: 0.75em;
+  }
+}
+
+.card__excerpt {
+  flex: 1 1 auto;
+  margin: 0 0 1em;
+  font-size: $type-size-6;
+  line-height: 1.5;
+}
+
+.card__footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: auto;
+}
+
+.card__tag {
+  display: inline-block;
+  padding: 0.3em 0.7em;
+  font-size: $type-size-8;
+  color: $primary-color;
+  text-decoration: none;
+  background-color: $lighter-gray;
+  border-radius: $border-radius;
+
+  &:hover {
+    background-color: $light-gray;
+    color: $primary-color;
+  }
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.7em;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-8;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: 1em;
+  white-space: nowrap;
+
+  &--active,
+  &--open {
+    color: #fff;
+    background-color: $accent-color;
+  }
+
+  &--completed,
+  &--closed {
+    color: mix(#fff, $gray, 15%);
+    background-color: $lighter-gray;
+  }
+}

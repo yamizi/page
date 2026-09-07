@@ -1,0 +1,24 @@
+{% include base_path %}
+
+<article class="card" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="card__header">
+    <h2 class="card__title" itemprop="headline"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h2>
+    {% if post.status %}<span class="badge badge--{{ post.status }}">{{ post.status }}</span>{% endif %}
+  </div>
+
+  <p class="card__meta">
+    {% if post.dates %}<span><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.dates }}</span>{% endif %}
+    {% if post.partner %}<span><i class="fa fa-fw fa-building" aria-hidden="true"></i> {{ post.partner }}</span>{% endif %}
+    {% if post.funding %}<span><i class="fa fa-fw fa-coins" aria-hidden="true"></i> {{ post.funding }}</span>{% endif %}
+  </p>
+
+  {% if post.excerpt %}<p class="card__excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+
+  {% if post.publications %}
+    <div class="card__footer">
+      {% for pub in post.publications %}
+        <a class="card__tag" href="{{ pub.url }}">{{ pub.label }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+</article>

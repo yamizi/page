@@ -1,14 +1,15 @@
 ---
+layout: home
 permalink: /
 title: ""
 excerpt: "About me: Salah GHAMIZI"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Welcome on my public research page. Feel free to get in touch through social media (on the left), or my work email!
+Welcome on my public research page. Feel free to get in touch through the links above, or my work email!
 
 About Me
 ======
