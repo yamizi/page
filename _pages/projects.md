@@ -51,3 +51,15 @@ FNR JUMP projects: 250K€
 
 SVALINN protects digital assets — like image, audio, video, text, and tabular data — from various misuses including secret disclosure, tampering, social engineering, copyright infringement and fake content generation. SVALINN relies on AI technologies to produce invisible signatures ensuring asset authenticity and impeding misuses by both humans and automated tools.
 
+# Predi PET - AD (2026-2027)
+
+FNR CORE project, Luxembourg Institute of Health (PI: Olivier Keunen)
+
+Predi PET - AD aims to generate 'PET-like' images of molecular targets relevant to Alzheimer's Disease (amyloid plaques, tau protein and metabolic activity) from multi-parametric MRI using AI, offering a way to reduce reliance on costly and hard-to-access PET imaging for diagnosis and clinical management. The project trains multi-targets vision transformer and diffusion models (ResViT, Brownian Bridge Diffusion) on large public cohorts (OASIS, ADNI, A4 — over 10,000 patients), validates the clinical value of the predicted imaging biomarkers, and investigates explainability techniques (Grad-CAM, LIME, SHAP) to support clinical adoption. I contribute my expertise in multi-targets AI models development.
+
+# FM2MRI (2025-2027)
+
+FNR CORE project, Luxembourg Institute of Health (PI: Salah Ghamizi)
+
+FM2MRI aims to build the first foundation model for MRI modality synthesis and segmentation, combining Mixture of Experts and Retrieval Augmented Generation to tackle scarce medical imaging settings — rare pathologies and costly protocols such as DCE-MRI perfusion maps — where only limited training data is available. The project investigates unified brain MRI encoders, prompt-guided multi-task learning for joint segmentation and synthesis, and privacy-preserving customization through external database retrieval, aiming for a flexible, generalizable and locally deployable foundation model for clinical use.
+

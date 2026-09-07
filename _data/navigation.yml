@@ -9,9 +9,10 @@ main:
   - title: "Research projects"
     url: /projects/
 
-  - title: "CV"
-    url: /cv/
 
   - title: "Open Positions"
     url: /positions/
 
+
+  - title: "CV"
+    url: /cv/
