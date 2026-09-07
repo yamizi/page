@@ -14,14 +14,14 @@ apply_url: "https://www.uni.lu/en/jobs/doctoral-researcher-in-trustworthy-world-
 
 This PhD position focuses on designing **novel neuro-symbolic learning encoders for world models** applied to **breast cancer** (with CHL). The candidate will investigate architectures that embed mathematical models of breast tumor growth and treatment response into multimodal world models combining imaging, tabular clinical data, and graph-structured information, so that predictions remain consistent with known tumor biology and clinical constraints.
 
-Beyond architectural design, the trustworthiness dimension of the thesis will focus on **logic-informed certification** of these models — inspired by algorithms such as alpha-beta-CROWN — to formally verify properties of the learned world models against clinically meaningful constraints. The choice of which properties to certify, and their priority, will be driven directly by clinical input from masto-oncologists at CHL, ensuring the work targets what matters most for the real-world reliability of models supporting clinical decision-making.
+Beyond architectural design, the trustworthiness dimension of the thesis will focus on **logic-informed constraints and certification** of these models to formally verify properties of the learned world models against clinically meaningful constraints. The choice of which properties to enforce, to certify, and their priority, will be driven directly by clinical input from masto-oncologists, ensuring the work targets what matters most for the real-world reliability of models supporting clinical decision-making.
 
 **Profile sought:**
 
 - Master's degree in Computer Science, with a specialization in machine learning or computer vision preferred
 - Strong programming and analytical skills
 - Knowledge of foundational and contemporary machine learning approaches (including foundation and generative models)
-- Prior experience in ICT for healthcare is a plus
+- Prior experience in ICT for oncology is highly sought
 
 **How to apply:** Applications (CV + cover letter) must be submitted online through the University of Luxembourg's HR system (applications by email are not considered). Early applications are strongly encouraged, as applications are processed upon receipt. [Application here](https://www.uni.lu/en/jobs/doctoral-researcher-in-trustworthy-world-models-for-critical-systems/)
 
