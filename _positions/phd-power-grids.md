@@ -5,8 +5,8 @@ permalink: /position/phd-power-grids
 category: phd
 status: open
 host: "Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg, SERVAL Research Group"
-duration: "36 months, full-time"
-salary: "EUR 44,531 gross annually"
+duration: "48 months, full-time"
+salary: "TBD"
 partner: "CREOS Luxembourg"
 contact_email: "salah.ghamizi[at]uni.lu"
 apply_url: "https://www.uni.lu/en/jobs/doctoral-researcher-in-trustworthy-world-models-for-critical-systems/"

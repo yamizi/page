@@ -1,20 +1,20 @@
 ---
-title: "Doctoral Researcher in Trustworthy World Models for Critical Systems — Neuro-Oncology"
+title: "Doctoral Researcher in Trustworthy World Models for Critical Systems — Masto-Oncology"
 collection: positions
-permalink: /position/phd-neuro-oncology
+permalink: /position/phd-masto-oncology
 category: phd
 status: open
 host: "Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg, SERVAL Research Group"
-duration: "36 months, full-time"
-salary: "EUR 44,531 gross annually"
-partner: "Departments of Neuro-Oncology, Centre Hospitalier de Luxembourg (CHL) and Charité – Universitätsmedizin Berlin"
+duration: "48 months, full-time"
+salary: "TBD"
+partner: "Centre Hospitalier de Luxembourg (CHL)"
 contact_email: "salah.ghamizi[at]uni.lu"
 apply_url: "https://www.uni.lu/en/jobs/doctoral-researcher-in-trustworthy-world-models-for-critical-systems/"
 ---
 
-This PhD position focuses on designing **novel neuro-symbolic learning encoders for world models** applied to **neuro-oncology** (with CHL and Charité). The candidate will investigate architectures that embed mathematical models of brain tumor growth and treatment response into multimodal world models combining imaging, tabular clinical data, and graph-structured information, so that predictions remain consistent with known tumor biology and clinical constraints.
+This PhD position focuses on designing **novel neuro-symbolic learning encoders for world models** applied to **breast cancer** (with CHL). The candidate will investigate architectures that embed mathematical models of breast tumor growth and treatment response into multimodal world models combining imaging, tabular clinical data, and graph-structured information, so that predictions remain consistent with known tumor biology and clinical constraints.
 
-Beyond architectural design, the trustworthiness dimension of the thesis will focus on **logic-informed certification** of these models — inspired by algorithms such as alpha-beta-CROWN — to formally verify properties of the learned world models against clinically meaningful constraints. The choice of which properties to certify, and their priority, will be driven directly by clinical input from neuro-oncologists at CHL and Charité, ensuring the work targets what matters most for the real-world reliability of models supporting clinical decision-making.
+Beyond architectural design, the trustworthiness dimension of the thesis will focus on **logic-informed certification** of these models — inspired by algorithms such as alpha-beta-CROWN — to formally verify properties of the learned world models against clinically meaningful constraints. The choice of which properties to certify, and their priority, will be driven directly by clinical input from masto-oncologists at CHL, ensuring the work targets what matters most for the real-world reliability of models supporting clinical decision-making.
 
 **Profile sought:**
 
