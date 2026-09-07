@@ -5,7 +5,13 @@ modified: 2026-09-07
 author_profile: true
 ---
 
-I am regularly looking for motivated students and researchers to join the [SERVAL research group](https://www.svv.lu/) at SnT, University of Luxembourg, working on trustworthy machine learning, world models, and their application to safety-critical systems. Open positions are listed below by type.
+I am regularly looking for motivated students and researchers to join us, working on trustworthy machine learning, world models, and their application to safety-critical systems, in particular medical imaging and neuro-imaging. Open positions are listed below by type.
+
+
+
+# Postdoctoral researcher
+
+No open positions at the moment. Feel free to reach out at salah.ghamizi@uni.lu if you are interested in future opportunities.
 
 # PhD student
 
@@ -27,7 +33,7 @@ Beyond architectural design, the trustworthiness dimension of the thesis will fo
 - Knowledge of foundational and contemporary machine learning approaches (including foundation and generative models)
 - Prior experience in ICT for energy is a plus
 
-**How to apply:** Applications (CV + cover letter) must be submitted online through the University of Luxembourg's HR system (applications by email are not considered). Early applications are strongly encouraged, as applications are processed upon receipt.
+**How to apply:** Applications (CV + cover letter) must be submitted online through the University of Luxembourg's HR system (applications by email are not considered). Early applications are strongly encouraged, as applications are processed upon receipt: [text](https://www.uni.lu/en/jobs/doctoral-researcher-in-trustworthy-world-models-for-critical-systems/)
 
 ---
 
@@ -49,15 +55,12 @@ Beyond architectural design, the trustworthiness dimension of the thesis will fo
 - Knowledge of foundational and contemporary machine learning approaches (including foundation and generative models)
 - Prior experience in ICT for healthcare is a plus
 
-**How to apply:** Applications (CV + cover letter) must be submitted online through the University of Luxembourg's HR system (applications by email are not considered). Early applications are strongly encouraged, as applications are processed upon receipt.
+**How to apply:** Applications (CV + cover letter) must be submitted online through the University of Luxembourg's HR system (applications by email are not considered). Early applications are strongly encouraged, as applications are processed upon receipt. [text](https://www.uni.lu/en/jobs/doctoral-researcher-in-trustworthy-world-models-for-critical-systems/)
 
 ---
 
 Both positions are part of the same research effort on **Trustworthy World Models for multimodal vision-graph-tabular settings**, and the two candidates will work closely together on shared neuro-symbolic encoder architectures and certification methods, while each specializing in the mathematical/physical structure and stakeholder priorities of their own application domain.
 
-# Postdoctoral researcher
-
-No open positions at the moment. Feel free to reach out at salah.ghamizi@uni.lu if you are interested in future opportunities.
 
 # Internship
 
@@ -86,7 +89,7 @@ We have developed predictive models that synthesize PET images from multi-parame
 - Familiarity with explainability, uncertainty quantification, or model evaluation methods is an asset
 - Autonomous, rigorous, and comfortable working at the interface of AI research and clinical validation
 
-**How to apply:** Send your CV and your Master transcripts.
+**How to apply:** Send your CV and your Master transcripts by email.
 
 ---
 
@@ -146,4 +149,4 @@ This internship is part of FM2MRI, a project building a foundation model combini
 - Interest in retrieval-augmented generation, mixture-of-experts architectures, or privacy-preserving machine learning; prior exposure to medical imaging is a plus
 - Autonomous, rigorous, and comfortable working at the interface of AI research and system integration
 
-**How to apply:** Send your CV and your Master transcripts.
+**How to apply:** Send your CV and your Master transcripts by email.
