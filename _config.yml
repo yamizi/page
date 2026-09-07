@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Salah GHAMIZI, Research Scientist @ SnT - University of Luxembourg"
+title                    : "Salah GHAMIZI, RS @ SnT / PI @ LIH"
 title_separator          : "-"
 name                     : "Salah GHAMIZI"
 description              : "My public research page"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Salah GHAMIZI"
   avatar           : "profile.jpg"
-  bio              : "Research Scientist @ SnT"
+  bio              : "Research Scientist @ SnT <br/> Principal Investigator @ LIH"
   location         : "Luxembourg"
-  employer         : "SnT - University of Luxembourg"
+  employer         : "SnT - LIH"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=UcvKgR0AAAAJ&hl=en&oi=ao"
   email            : "salah.ghamizi[at]uni.lu"
