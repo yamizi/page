@@ -10,7 +10,7 @@ duration: "Master's internship; duration and start date to be agreed with the ca
 contact_email: "salah.ghamizi[at]lih.lu"
 ---
 
-This internship is part of FM2MRI, a project building a foundation model combining Mixture of Experts (MoE) and Retrieval Augmented Generation (RAG) for MRI segmentation and synthesis. Robust models for medical imaging must generalize across the diverse acquisition settings of different hospitals while remaining deployable locally under data privacy and compute constraints. RAG addresses generalization by letting a model retrieve and incorporate relevant information from an institution's own database at inference time, without retraining. This internship will build that retrieval mechanism, integrate it with the project's MoE model, and evaluate the solution both for effectiveness and for its privacy guarantees.
+Robust models for medical imaging must generalize across the diverse acquisition settings of different hospitals while remaining deployable locally under data privacy and compute constraints. RAG addresses generalization by letting a model retrieve and incorporate relevant information from an institution's own database at inference time, without retraining. This internship will build that retrieval mechanism, integrate it with the project's MoE model, and evaluate the solution both for effectiveness and for its privacy guarantees.
 
 **What you'll work on:**
 - **RAG database & context generation.** Design a vector database engine that indexes MRI image and prompt embeddings, and a query-retrieval-context pipeline that merges the top relevant embeddings from the database with the original prompt to guide the model.
